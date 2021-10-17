@@ -1,0 +1,28 @@
+.welcome {
+  background-color: $color-4;
+  &__inner {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    font-size: 64px;
+    color: $color-2;
+    margin-bottom: 8px;
+  }
+  &__sub-title {
+    font-size: 32px;
+    color: $color-2;
+    margin-bottom: 8px;
+  }
+  &__buttons {
+    display: flex;
+  }
+  &__button {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
