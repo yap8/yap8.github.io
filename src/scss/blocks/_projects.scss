@@ -8,7 +8,7 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     @media (max-width: $res-medium) {
       align-items: center;
       flex-direction: column;
@@ -19,29 +19,9 @@
     height: 320px;
     width: 100%;
     margin-bottom: 16px;
-    &--large {
-      max-width: 90%;
-    }
-    &--medium {
-      max-width: calc(45% - 8px);
-      &:nth-child(2) {
-        margin-right: 16px;
-      }
-    }
-    &--small {
-      max-width: calc(30% - 10.5px);
-      &:not(:last-child) {
-        margin-right: 16px;
-      }
-    }
+    max-width: calc(50% - 16px);
     @media (max-width: $res-medium) {
       max-width: 720px;
-      &--medium:nth-child(2) {
-        margin-right: 0;
-      }
-      &--small:not(:last-child) {
-        margin-right: 0;
-      }
     }
   }
 }

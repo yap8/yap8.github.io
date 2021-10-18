@@ -1,0 +1,32 @@
+.project {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__image {
+    position: absolute;
+    display: none;
+  }
+  &__title {
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+  }
+  &__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 16px;
+  }
+  &__buttons-item {
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+
+  }
+  &__button {
+
+  }
+}
