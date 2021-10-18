@@ -26,4 +26,13 @@
       fill: $color-1;
     }
   }
+  @media (max-width: $res-medium) {
+    padding: 0 6px;
+    font-size: 20px;
+    svg {
+      width: 22px;
+      height: 22px;
+      margin-right: 6px;
+    }
+  }
 }

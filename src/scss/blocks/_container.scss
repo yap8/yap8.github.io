@@ -1,8 +1,17 @@
 .container {
-  max-width: 1165px;
+  max-width: 1240px;
   width: 95%;
   margin: 0 auto;
   &--small {
-    width: 50%;
+    max-width: 960px;
+    @media (max-width: $res-medium) {
+      max-width: 1240px;
+    }
+  }
+  &--padding {
+    padding: 64px 0;
+    @media (max-width: $res-medium) {
+      padding: 32px 0;
+    }
   }
 }

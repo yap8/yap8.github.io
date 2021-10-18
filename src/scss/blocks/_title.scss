@@ -1,3 +1,11 @@
 .title {
   font-size: 64px;
+  text-align: center;
+  margin-bottom: 32px;
+  @media (max-width: $res-medium) {
+    font-size: 54px;
+  }
+  @media (max-width: $res-small) {
+    font-size: 48px;
+  }
 }
