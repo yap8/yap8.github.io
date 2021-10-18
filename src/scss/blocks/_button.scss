@@ -12,8 +12,18 @@
   cursor: pointer;
   transition: background-color .2s ease,
               color .2s ease;
+  svg {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    fill: #fff;
+    transition: fill .2s ease;
+  }
   &:hover {
     color: $color-1;
     background-color: #fff;
+    svg {
+      fill: $color-1;
+    }
   }
 }
