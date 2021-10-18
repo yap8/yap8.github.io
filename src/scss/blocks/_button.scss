@@ -10,4 +10,10 @@
   font-size: 22px;
   color: $color-2;
   cursor: pointer;
+  transition: background-color .2s ease,
+              color .2s ease;
+  &:hover {
+    color: $color-1;
+    background-color: #fff;
+  }
 }
