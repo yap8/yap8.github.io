@@ -1,0 +1,30 @@
+.contact {
+  &__inner {
+    padding: 64px 0;
+    min-height: 300px;
+  }
+  &__title {
+    text-align: center;
+    color: $color-1;
+    margin-bottom: 32px;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+  &__item {
+    margin: 8px;
+  }
+  &__link {
+    svg {
+      height: 48px;
+      width: 48px;
+      fill: $color-1;
+      transition: fill .2s ease;
+    }
+    &:hover svg {
+      fill: $color-3;
+    }
+  }
+
+}
