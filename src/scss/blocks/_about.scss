@@ -1,0 +1,27 @@
+.about {
+  background-color: $color-1;
+  &__inner {
+    min-height: 300px;
+    padding: 64px 0;
+  }
+  &__title {
+    color: $color-2;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  &__text {
+    font-size: 22px;
+    color: $color-2;
+  }
+  &__paragraph {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+  &__link {
+    color: $color-3;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
