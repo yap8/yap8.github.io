@@ -1,0 +1,13 @@
+.footer {
+  background-color: $color-1;
+  &__inner {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__copyright {
+    color: $color-2;
+    font-size: 22px;
+  }
+}
