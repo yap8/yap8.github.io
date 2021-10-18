@@ -8,11 +8,38 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    @media (max-width: $res-small) {
+      height: 64px;
+    }
   }
   &__nav {
     height: 100%;
+    @media (max-width: $res-small) {
+      display: none;
+      &--active {
+        display: block;
+      }
+    }
   }
   &__options {
     height: 100%;
+    @media (max-width: $res-small) {
+      
+    }
+  }
+  &__toggle {
+    cursor: pointer;
+    width: 64px;
+    border: 0;
+    background-color: transparent;
+    display: none;
+    svg {
+      height: 42px;
+      width: 42px;
+      fill: $color-2;
+    }
+    @media (max-width: $res-small) {
+      display: block;
+    }
   }
 }

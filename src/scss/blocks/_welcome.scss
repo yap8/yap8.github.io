@@ -1,6 +1,9 @@
 .welcome {
   background-color: $color-4;
   padding-top: 88px;
+  @media (max-width: $res-small) {
+    padding-top: 64px;
+  }
   &__inner {
     min-height: 600px;
     display: flex;

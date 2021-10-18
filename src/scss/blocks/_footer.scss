@@ -5,6 +5,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: $res-small) {
+      height: 64px;
+    }
   }
   &__copyright {
     color: $color-2;

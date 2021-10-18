@@ -34,5 +34,11 @@
       height: 22px;
       margin-right: 6px;
     }
+    &--option {
+      font-size: 0;
+      svg {
+        margin: 0;
+      }
+    }
   }
 }
