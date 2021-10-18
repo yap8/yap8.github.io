@@ -1,5 +1,8 @@
 .header {
   background-color: $color-1;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   &__inner {
     height: 88px;
     display: flex;
