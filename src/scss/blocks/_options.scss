@@ -1,9 +1,0 @@
-.options {
-  display: flex;
-  align-items: center;
-  &__button {
-    &:not(:last-child) {
-      margin-right: 10px;
-    }
-  }
-}
